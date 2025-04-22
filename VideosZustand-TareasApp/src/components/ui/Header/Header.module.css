@@ -1,0 +1,33 @@
+.containerHeader {
+    width: 100vw;
+    height: 8vh;
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+}
+
+.containerTitleHeader {
+    margin-left: 4vw;
+}
+
+.actionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.actionCard button {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.actionCard button:hover {
+    cursor: pointer;
+    background-color: #5a5a5a;
+}
