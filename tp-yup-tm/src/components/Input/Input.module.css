@@ -1,0 +1,38 @@
+.inputContainer {
+  margin-bottom: 1.5rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #f1f1f1;
+}
+
+.input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #666;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+.input:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+.errorInput {
+  border-color: #ff6b6b;
+  background-color: #3a1e1e;
+}
+
+.errorText {
+  color: #ff6b6b;
+  margin-top: 0.3rem;
+  font-size: 0.85rem;
+}
