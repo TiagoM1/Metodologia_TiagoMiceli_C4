@@ -1,0 +1,56 @@
+:root {
+  --primary-color:black;
+  --color-letter-primary: #FFFFFF;
+  --card-color: #FFFFFF;
+  --card-letter-color: #000000;
+  --hover-addTask: #a154ff;
+  --input-task: #8A30F9;
+  --background-inputs-task-color-one: #a754f9;
+  --background-inputs-task-color-two: #c88cfc;
+  --placeholder-input-task: #e4ccff;
+
+  /* Font */
+  --font-family-primary: "Inter", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: var(--color-letter-primary);
+  font-family: var(--font-family-primary);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+button {
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  color: #000;
+}
+
+h1, h2, h4, h5, h6 {
+  color: var(--color-letter-primary);
+} 
+
+/* Scrollbar Customization (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}

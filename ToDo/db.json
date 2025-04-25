@@ -1,0 +1,46 @@
+{
+  "backlog": {
+    "tareas": []
+  },
+  "sprintList": {
+    "sprints": [
+      {
+        "fechaInicio": "2025-05-01",
+        "fechaCierre": "2025-05-08",
+        "nombre": "Semana 1",
+        "id": "eb31480b-3225-4eac-baa3-e5c9eb8ca21a",
+        "tareas": [
+          {
+            "titulo": "Requerimientos",
+            "descripcion": "Reunión con el cliente para recolectar los requerimientos",
+            "estado": "en proceso",
+            "fechaLimite": "2025-05-08",
+            "id": "9d7d5343-3845-4111-acab-1ca9debdc993"
+          },
+          {
+            "titulo": "Presentar Propuesta",
+            "descripcion": "Reunion con el cliente para mostrar el diseño",
+            "estado": "completada",
+            "fechaLimite": "2025-05-08",
+            "id": "edb8d445-616f-4540-a085-586c7b6562b9"
+          }
+        ]
+      },
+      {
+        "fechaInicio": "2025-05-09",
+        "fechaCierre": "2025-05-16",
+        "nombre": "Semana 2",
+        "id": "5b7b3237-9833-4a1f-8b18-4ba3cdda5505",
+        "tareas": [
+          {
+            "titulo": "Figma",
+            "descripcion": "Iniciar un boceto de diseño en figma",
+            "estado": "pendiente",
+            "fechaLimite": "2025-05-08",
+            "id": "4e44f24e-4867-4fcc-88dd-4dec3a42ec58"
+          }
+        ]
+      }
+    ]
+  }
+}

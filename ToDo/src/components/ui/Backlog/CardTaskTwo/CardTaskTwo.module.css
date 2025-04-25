@@ -1,0 +1,55 @@
+.actionContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.3rem;
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 0.3rem;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  text-align: left;
+  cursor: pointer;
+}
+.menu button:hover {
+  background-color: #444;
+}
+
+.containerCard {
+  width: 100%;
+  background-color: #222;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.containerDescription {
+  width: 75%;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}

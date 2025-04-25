@@ -1,0 +1,58 @@
+/* CardTask.module.css */
+
+.containerCard {
+  width: 100%;
+  background-color: var(--card-color);
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--card-letter-color);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1rem;
+}
+
+.containerDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.containerDescription h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--card-letter-color);
+  margin-bottom: 5px;
+}
+
+.containerDescription p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.actionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 0.5rem;
+  width: 8%;
+}
+
+.buttonCardTaskDelete,
+.buttonCardTaskEdit {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.buttonCardTaskDelete {
+  color: red;
+}
+
+.buttonCardTaskEdit {
+  color: dodgerblue;
+}

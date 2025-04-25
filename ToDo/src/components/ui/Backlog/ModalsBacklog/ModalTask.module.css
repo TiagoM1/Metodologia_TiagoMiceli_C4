@@ -1,0 +1,89 @@
+.containerPrincipalModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+
+.contentPopUp {
+  background-color: #8A30F9;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 320px;
+  box-shadow: 0 0 20px #8A30F9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+
+.container {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.formContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.inputDate {
+  cursor: pointer;
+}
+
+.buttonCard {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.buttonModalTask {
+  flex: 1;
+  font-size: 1rem;
+  padding: 0.6rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonModalTask:first-child {
+  background-color: #000;
+  color: #fff;
+}
+
+.buttonModalTask:last-child {
+  background-color: #000;
+  color: #fff;
+}
+
+.buttonModalTask:hover {
+  opacity: 0.8;
+}
